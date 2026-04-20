@@ -1,0 +1,54 @@
+.app-shell {
+  width: min(800px, 92vw);
+  margin: 2rem auto;
+  border: 1px solid #d6d9e0;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e7e9ef;
+}
+
+.top-nav h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.top-nav nav {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #374151;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+}
+
+.top-nav a.active {
+  color: #0f172a;
+  background: #e6f0ff;
+  font-weight: 600;
+}
+
+main {
+  padding: 2rem 1.5rem;
+}
+
+.page h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.9rem;
+}
+
+.page p {
+  margin: 0;
+  color: #475569;
+}
