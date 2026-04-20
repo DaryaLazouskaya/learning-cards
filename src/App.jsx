@@ -13,7 +13,7 @@ function HomePage() {
 function AboutPage() {
   return (
     <section className="page">
-      <h1>About</h1>
+      <h1>About App</h1>
       <p>React Router is configured with two pages and active link styling.</p>
     </section>
   )
@@ -35,14 +35,14 @@ function App() {
         <h2>Learning Cards</h2>
         <nav>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about-app">About App</NavLink>
         </nav>
       </header>
 
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/about-app" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
